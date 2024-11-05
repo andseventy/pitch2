@@ -1,4 +1,4 @@
-<!doctype html><html xmlns="http://www.w3.org/1999/xhtml"><head><title>Keynote</title><meta name="viewport" content="initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,width=device-width"/><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/></head><script>
+<!doctype html><html xmlns="http://www.w3.org/1999/xhtml"><head><title>andseventy introduction</title><meta name="viewport" content="initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,width=device-width"/><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/></head><script>
   document.addEventListener("DOMContentLoaded", function() {
     if (document.documentElement.requestFullscreen) {
       document.documentElement.requestFullscreen();
@@ -11,4 +11,13 @@
     }
   });
 </script>
+<button onclick="requestFullScreen()">Go Full Screen</button>
+<script>
+   function requestFullScreen() {
+     if (document.documentElement.requestFullscreen) {
+       document.documentElement.requestFullscreen();
+     }
+   }
+</script>
+
 <body id="body" bgcolor="black"><div id="stageArea"><div id="stage" class="stage"></div><div id="hyperlinkPlane" class="stage"></div></div><div id="slideshowNavigator"></div><div id="slideNumberControl"></div><div id="slideNumberDisplay"></div><div id="helpPlacard"></div><div id="waitingIndicator"><div id="waitingSpinner"></div></div><script src="assets/player/main.js"></script></body></html>
